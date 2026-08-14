@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cinematic GitHub Archive - Elite Developer Portfolio and Digital Installation">
+  <title>GITHUB ARCHIVE // DIGITAL INSTALLATION</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Syne:wght@700;800;900&display=swap" rel="stylesheet">
+  <!-- Lenis CSS for smooth scrolling -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/CSS/lenis.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="custom-cursor" class="custom-cursor">
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+    <div class="cursor-label"></div>
+  </div>
+
+  <!-- Boot Screen -->
+  <div id="boot-screen" class="boot-screen">
+    <div class="boot-container">
+      <div class="boot-terminal-header">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">SYSTEM_INIT.EXE</span>
+      </div>
+      <div class="boot-terminal-body">
+        <p class="boot-line">> INITIALIZING GITHUB ARCHIVE CORE...</p>
+        <p class="boot-line">> ESTABLISHING QUANTUM CONNECTION...</p>
+        <p class="boot-line">> LOADING EXPERIENCE METADATA...</p>
+        <div class="progress-bar-container">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <div class="boot-status">
+          <span id="boot-status-text">INITIALIZING</span>
+          <span id="boot-percentage">0%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fixed Navigation -->
+  <nav class="main-nav">
+    <div class="nav-left">
+      <span class="status-indicator"></span>
+      <a href="#" class="logo-text">GITHUB ARCHIVE</a>
+    </div>
+    <div class="nav-center">
+      <a href="#tunnel-section" class="nav-link">WORK</a>
+      <a href="#editorial-section" class="nav-link">EXPERIMENTS</a>
+      <a href="#stack-section" class="nav-link">STACK</a>
+    </div>
+    <div class="nav-right">
+      <a href="#command-center" class="enter-archive-btn">[ ENTER ARCHIVE ]</a>
+    </div>
+  </nav>
+
+  <!-- Hero Portal -->
+  <section class="hero-section">
+    <div class="hero-bg-text">GITHUB</div>
+    
+    <!-- Portal Frame (Tilted on Hover) -->
+    <div class="portal-wrapper">
+      <div class="portal-container" id="portal-trigger">
+        <div class="portal-ring ring-outer"></div>
+        <div class="portal-ring ring-inner"></div>
+        <div class="portal-glow"></div>
+        
+        <!-- 3D Object: 4-sided Prism Rotating Cube -->
+        <div class="cube-viewport">
+          <div class="cube-3d" id="hero-cube">
+            <!-- Front Face -->
+            <div class="cube-face face-front">
+              <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&width=800&auto=format&fit=crop" alt="Exhibit Front" loading="lazy">
+              <div class="face-overlay">EXHIBIT_01 // PLATFORM</div>
+            </div>
+            <!-- Top Face -->
+            <div class="cube-face face-top">
+              <img src="https://images.unsplash.com/photo-1604871000636-074fa5117945?q=80&width=800&auto=format&fit=crop" alt="Exhibit Top" loading="lazy">
+              <div class="face-overlay">EXHIBIT_02 // SYSTEM</div>
+            </div>
+            <!-- Back Face -->
+            <div class="cube-face face-back">
+              <img src="https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?q=80&width=800&auto=format&fit=crop" alt="Exhibit Back" loading="lazy">
+              <div class="face-overlay">EXHIBIT_03 // CORE</div>
+            </div>
+            <!-- Bottom Face -->
+            <div class="cube-face face-bottom">
+              <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&width=800&auto=format&fit=crop" alt="Exhibit Bottom" loading="lazy">
+              <div class="face-overlay">EXHIBIT_04 // INTERFACE</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="hero-cta-container">
+      <a href="#tunnel-section" class="explore-cta hover-target-view">
+        <span class="cta-line"></span>
+        <span class="cta-text">EXPLORE THE ARCHIVE &rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Cinematic Project Tunnel -->
+  <section class="tunnel-section" id="tunnel-section">
+    <div class="tunnel-container" id="tunnel-container">
+      
+      <!-- Project 01 -->
+      <div class="tunnel-slide" id="slide-1">
+        <div class="slide-bg-glow" style="--glow-color: rgba(6, 182, 212, 0.15)"></div>
+        <div class="slide-content">
+          <div class="slide-meta">
+            <span class="slide-number">01</span>
+            <h2 class="slide-title">FUTURE<br>FORGE</h2>
+            <p class="slide-tagline">CAREER INTELLIGENCE PLATFORM</p>
+            <div class="slide-tags">
+              <span>REACT</span>
+              <span>JAVASCRIPT</span>
+              <span>CSS</span>
+            </div>
+            <div class="slide-links">
+              <a href="https://github.com" target="_blank" class="slide-link hover-target-open">GITHUB &nearr;</a>
+              <a href="#" class="slide-link hover-target-view">DEMO &nearr;</a>
+            </div>
+          </div>
+          <div class="slide-visual">
+            <div class="image-wrapper">
+              <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&width=1200&auto=format&fit=crop" alt="Future Forge" loading="lazy" class="tunnel-img">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 02 -->
+      <div class="tunnel-slide" id="slide-2">
+        <div class="slide-bg-glow" style="--glow-color: rgba(236, 72, 153, 0.15)"></div>
+        <div class="slide-content">
+          <div class="slide-meta">
+            <span class="slide-number">02</span>
+            <h2 class="slide-title">NEXUS<br>OS</h2>
+            <p class="slide-tagline">SPATIAL DATA MANAGEMENT LAYER</p>
+            <div class="slide-tags">
+              <span>THREE.JS</span>
+              <span>WEBGL</span>
+              <span>GSAP</span>
+            </div>
+            <div class="slide-links">
+              <a href="https://github.com" target="_blank" class="slide-link hover-target-open">GITHUB &nearr;</a>
+              <a href="#" class="slide-link hover-target-view">DEMO &nearr;</a>
+            </div>
+          </div>
+          <div class="slide-visual">
+            <div class="image-wrapper">
+              <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&width=1200&auto=format&fit=crop" alt="Nexus OS" loading="lazy" class="tunnel-img">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 03 -->
+      <div class="tunnel-slide" id="slide-3">
+        <div class="slide-bg-glow" style="--glow-color: rgba(124, 58, 237, 0.15)"></div>
+        <div class="slide-content">
+          <div class="slide-meta">
+            <span class="slide-number">03</span>
+            <h2 class="slide-title">AETHER<br>FLOW</h2>
+            <p class="slide-tagline">DECENTRALIZED NODE SYSTEM</p>
+            <div class="slide-tags">
+              <span>NODE.JS</span>
+              <span>D3.JS</span>
+              <span>WEB SOCKETS</span>
+            </div>
+            <div class="slide-links">
+              <a href="https://github.com" target="_blank" class="slide-link hover-target-open">GITHUB &nearr;</a>
+              <a href="#" class="slide-link hover-target-view">DEMO &nearr;</a>
+            </div>
+          </div>
+          <div class="slide-visual">
+            <div class="image-wrapper">
+              <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&width=1200&auto=format&fit=crop" alt="Aether Flow" loading="lazy" class="tunnel-img">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 04 -->
+      <div class="tunnel-slide" id="slide-4">
+        <div class="slide-bg-glow" style="--glow-color: rgba(6, 182, 212, 0.15)"></div>
+        <div class="slide-content">
+          <div class="slide-meta">
+            <span class="slide-number">04</span>
+            <h2 class="slide-title">SPECTRA<br>DB</h2>
+            <p class="slide-tagline">GRAPH ANALYTICS ARCHIVE</p>
+            <div class="slide-tags">
+              <span>RUST</span>
+              <span>WEBASSEMBLY</span>
+              <span>CANVAS</span>
+            </div>
+            <div class="slide-links">
+              <a href="https://github.com" target="_blank" class="slide-link hover-target-open">GITHUB &nearr;</a>
+              <a href="#" class="slide-link hover-target-view">DEMO &nearr;</a>
+            </div>
+          </div>
+          <div class="slide-visual">
+            <div class="image-wrapper">
+              <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&width=1200&auto=format&fit=crop" alt="Spectra DB" loading="lazy" class="tunnel-img">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 05 -->
+      <div class="tunnel-slide" id="slide-5">
+        <div class="slide-bg-glow" style="--glow-color: rgba(236, 72, 153, 0.15)"></div>
+        <div class="slide-content">
+          <div class="slide-meta">
+            <span class="slide-number">05</span>
+            <h2 class="slide-title">KINETIC<br>UI</h2>
+            <p class="slide-tagline">GESTURE INTERACTION ENGINE</p>
+            <div class="slide-tags">
+              <span>VANILLA JS</span>
+              <span>MATH</span>
+              <span>SCSS</span>
+            </div>
+            <div class="slide-links">
+              <a href="https://github.com" target="_blank" class="slide-link hover-target-open">GITHUB &nearr;</a>
+              <a href="#" class="slide-link hover-target-view">DEMO &nearr;</a>
+            </div>
+          </div>
+          <div class="slide-visual">
+            <div class="image-wrapper">
+              <img src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&width=1200&auto=format&fit=crop" alt="Kinetic UI" loading="lazy" class="tunnel-img">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Editorial Typography Section -->
+  <section class="editorial-section" id="editorial-section">
+    <div class="editorial-row word-create">CREATE</div>
+    <div class="editorial-row word-build">BUILD</div>
+    <div class="editorial-row word-break">BREAK</div>
+    <div class="editorial-row word-rebuild">REBUILD</div>
+    <div class="editorial-row word-ship">SHIP.</div>
+  </section>
+
+  <!-- Brutalist Project Grid -->
+  <section class="archive-grid-section">
+    <div class="grid-header">
+      <h2>PROJECT LOGS</h2>
+      <span class="grid-sub">DETAILED ARCHIVAL LIST</span>
+    </div>
+    
+    <div class="brutalist-grid">
+      <!-- Large Featured Project -->
+      <div class="grid-item featured-project">
+        <div class="mac-controls">
+          <span class="mac-dot red"></span>
+          <span class="mac-dot yellow"></span>
+          <span class="mac-dot green"></span>
+          <span class="mac-title">FEATURED_EXHIBIT.LOG</span>
+        </div>
+        <div class="grid-item-content">
+          <div class="featured-info">
+            <span class="featured-tag">LATEST ARCHIVE</span>
+            <h3>CHRONOS ENGINE</h3>
+            <p>A distributed virtual clock system designed to synchronize frame timings across multiple rendering nodes in high-performance installations.</p>
+            <div class="meta-bottom">
+              <span class="tech">C++ // WEBGL // WEBRTC</span>
+              <a href="https://github.com" target="_blank" class="btn-link hover-target-open">ACCESS REPOSITORY &nearr;</a>
+            </div>
+          </div>
+          <div class="featured-visual">
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&width=1000&auto=format&fit=crop" alt="Chronos Engine" loading="lazy" class="grid-img">
+          </div>
+        </div>
+      </div>
+
+      <!-- Secondary Projects -->
+      <div class="grid-item">
+        <div class="mac-controls">
+          <span class="mac-dot red"></span>
+          <span class="mac-dot yellow"></span>
+          <span class="mac-dot green"></span>
+          <span class="mac-title">LOG_082.SH</span>
+        </div>
+        <div class="grid-item-content compact">
+          <h4>HELIOS PARSER</h4>
+          <p>Supercharged AST parser supporting real-time syntax visualization at 60 FPS.</p>
+          <div class="meta-bottom">
+            <span class="tech">TS // PARSING</span>
+            <a href="https://github.com" target="_blank" class="btn-link hover-target-open">GITHUB &nearr;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="mac-controls">
+          <span class="mac-dot red"></span>
+          <span class="mac-dot yellow"></span>
+          <span class="mac-dot green"></span>
+          <span class="mac-title">SYS_SHADERS.GLSL</span>
+        </div>
+        <div class="grid-item-content compact">
+          <h4>GLSL NOISE LIB</h4>
+          <p>Custom atmospheric fragment and vertex noise shaders optimized for mobile processors.</p>
+          <div class="meta-bottom">
+            <span class="tech">GLSL // MATH</span>
+            <a href="https://github.com" target="_blank" class="btn-link hover-target-open">GITHUB &nearr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack Section -->
+  <section class="stack-section" id="stack-section">
+    <div class="stack-bg-glow"></div>
+    <div class="stack-container">
+      <div class="stack-header">
+        <h2>SYSTEM STACK</h2>
+        <p>TECHNOLOGICAL ANCHORS (CURSOR DEPTH ACTIVE)</p>
+      </div>
+      <div class="stack-floating-words" id="stack-words">
+        <!-- JS will apply 3D transformations/depth elements here -->
+        <span class="stack-word" data-depth="0.1">HTML</span>
+        <span class="stack-word" data-depth="0.4">CSS</span>
+        <span class="stack-word" data-depth="0.2">JAVASCRIPT</span>
+        <span class="stack-word" data-depth="0.6">JAVA</span>
+        <span class="stack-word" data-depth="0.3">SPRING</span>
+        <span class="stack-word" data-depth="0.5">REACT</span>
+        <span class="stack-word" data-depth="0.8">THREE.JS</span>
+        <span class="stack-word" data-depth="0.7">GSAP</span>
+        <span class="stack-word" data-depth="0.3">GIT</span>
+        <span class="stack-word" data-depth="0.5">GITHUB</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub Command Center -->
+  <section class="command-center" id="command-center">
+    <div class="glow-atmosphere"></div>
+    <div class="cmd-content">
+      <span class="cmd-badge">SOURCE CODE AVAILABLE</span>
+      <h2 class="cmd-title">GITHUB COMMAND CENTER</h2>
+      
+      <!-- Stats Container (Live stats loaded here, or fallback values) -->
+      <div class="stats-row" id="github-stats">
+        <div class="stat-box">
+          <span class="stat-val" id="stat-commits">2,481</span>
+          <span class="stat-lbl">COMMITS</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-val" id="stat-repos">14</span>
+          <span class="stat-lbl">REPOSITORIES</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-val" id="stat-followers">37</span>
+          <span class="stat-lbl">FOLLOWERS</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-val" id="stat-stars">&infin;</span>
+          <span class="stat-lbl">STARS / EXPERIMENTS</span>
+        </div>
+      </div>
+
+      <!-- Magnetic Button Area -->
+      <div class="magnetic-btn-wrapper">
+        <a href="https://github.com" target="_blank" class="magnetic-btn hover-target-open" id="github-cta-btn">
+          <span class="btn-bg"></span>
+          <span class="btn-text">OPEN GITHUB &nearr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Editorial Footer -->
+  <footer class="editorial-footer">
+    <div class="footer-marquee">
+      <div class="footer-hero-text">
+        <span>LET'S BUILD SOMETHING IMPOSSIBLE.</span>
+        <span>LET'S BUILD SOMETHING IMPOSSIBLE.</span>
+      </div>
+    </div>
+    
+    <div class="footer-meta">
+      <div class="meta-left">
+        <p>&copy; 2026</p>
+        <p>BUILT WITH HTML / CSS / JAVASCRIPT</p>
+      </div>
+      <div class="meta-right">
+        <a href="https://github.com" target="_blank" class="footer-link hover-target-open">GITHUB &nearr;</a>
+        <a href="https://linkedin.com" target="_blank" class="footer-link hover-target-open">LINKEDIN &nearr;</a>
+        <a href="mailto:archive@digital.art" class="footer-link">EMAIL &nearr;</a>
+      </div>
+    </div>
+    <div class="bottom-fade"></div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- GSAP Core & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- Lenis for smooth scrolling -->
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
