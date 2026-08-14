@@ -1,61 +1,74 @@
 # Crafted in Code
 
-A refined editorial portfolio that blends thoughtful design, interactive motion, and handcrafted frontend development into a tactile digital experience.
+> A refined editorial portfolio blending thoughtful design, interactive motion, and handcrafted frontend development into a tactile digital experience.
 
-##Live link
+## 🔗 Live Demo
 
-https://paperframe-red.vercel.app/
+**[View Live Website](https://paperframe-red.vercel.app/)**
 
+---
 
-## Overview
+## ✦ Overview
 
-**Crafted in Code** is a minimalist portfolio built around the idea of treating a website like a carefully designed piece of print.
+**Crafted in Code** is a minimalist editorial portfolio inspired by the feeling of a carefully designed piece of print.
 
-The experience combines warm paper-inspired visuals, editorial typography, subtle interactions, scroll-driven motion, and an interactive project showcase.
+The experience combines warm paper-inspired visuals, expressive typography, scroll-driven motion, interactive project showcases, and subtle micro-interactions to create a distinctive digital experience.
 
-## Features
+The goal is simple: **make the interface feel designed, not generated.**
 
-* Editorial stationery-inspired visual system
-* Responsive design for desktop, tablet, and mobile
-* Scroll-driven project movement
-* Interactive project showcase
-* Self-drawing SVG demonstration
-* Dynamic project variants
-* Custom cursor interactions
-* Animated typography
-* Accessible interaction states
-* `prefers-reduced-motion` support
-* Lightweight static architecture
-* No backend or database required
+---
 
-## Tech Stack
+## ✨ Features
 
-* HTML5
-* CSS3
-* Vanilla JavaScript
-* GSAP
-* ScrollTrigger
-* Google Fonts
+* 📰 Editorial stationery-inspired design
+* 📱 Fully responsive layout
+* 🌀 Scroll-driven project movement
+* 🎯 Interactive project showcase
+* ✍️ Self-drawing SVG demonstration
+* 🔄 Dynamic project variants
+* 🖱️ Custom cursor interactions
+* 🔤 Animated editorial typography
+* ♿ Accessible interaction states
+* 🎞️ `prefers-reduced-motion` support
+* ⚡ Lightweight static architecture
+* 🚫 No backend or database required
 
-## Design Direction
+---
 
-The interface uses a restrained visual language:
+## 🛠️ Tech Stack
 
-* Warm paper backgrounds
-* Deep ink typography
-* Ink-blue accents
-* Hairline borders
-* Newsreader typography
-* Courier Prime metadata
-* Sharp rectangular geometry
-* Minimal motion
-* No gradients
-* No excessive shadows
-* No rounded cards
+| Technology    | Purpose                             |
+| ------------- | ----------------------------------- |
+| HTML5         | Semantic structure                  |
+| CSS3          | Layout, styling & responsive design |
+| JavaScript    | Interactions & dynamic behavior     |
+| GSAP          | Advanced animations                 |
+| ScrollTrigger | Scroll-based motion                 |
+| Google Fonts  | Editorial typography                |
 
-The goal is to make the website feel closer to an editorial publication than a conventional developer portfolio.
+---
 
-## Project Structure
+## 🎨 Design Direction
+
+The interface follows a restrained editorial visual language built around:
+
+* 📜 Warm paper backgrounds
+* 🖋️ Deep ink typography
+* 🔵 Ink-blue accents
+* ─️ Hairline borders
+* 📰 Newsreader display typography
+* ⌨️ Courier Prime metadata
+* ▫️ Sharp rectangular geometry
+* 🌊 Subtle motion
+* 🚫 No gradients
+* 🚫 No excessive shadows
+* 🚫 No rounded cards
+
+The result is intentionally closer to an **editorial publication or independent design studio** than a conventional developer portfolio.
+
+---
+
+## 📁 Project Structure
 
 ```text
 crafted-in-code/
@@ -66,50 +79,69 @@ crafted-in-code/
 └── README.md
 ```
 
+---
 
-## Customization
+## ⚙️ Customization
 
-Project information can be customized directly inside the HTML and JavaScript files.
+All portfolio content can be customized directly inside the HTML and JavaScript files.
 
-Replace:
+You can replace:
 
-* Project names
-* Project descriptions
-* GitHub links
-* Images
-* Technology information
-* Contact links
-* Portfolio statistics
+* 👤 Project names
+* 📝 Project descriptions
+* 🔗 GitHub links
+* 🖼️ Project images
+* 💻 Technologies
+* 📬 Contact links
+* 📊 Portfolio information
 
 No database or API configuration is required.
 
-## Motion
+---
 
-The portfolio uses scroll position to control major visual transitions.
+## 🎬 Motion & Interaction
 
-The featured project travels between sections rather than being duplicated throughout the page.
+The portfolio uses **scroll position as part of the visual storytelling system**.
 
-The SVG demonstration draws itself when it enters the viewport, creating a visual connection between the interface and the work being presented.
+The featured project travels through multiple sections instead of being repeatedly placed inside separate cards.
 
-Motion is progressively reduced when the user has enabled `prefers-reduced-motion`.
+The demonstration section contains an SVG that **draws itself when it enters the viewport**, creating a visual connection between the interface and the work being presented.
 
-## Performance
+Motion is automatically reduced when the user enables:
 
-The project is designed as a lightweight static frontend.
+```text
+prefers-reduced-motion
+```
 
-There is:
+This keeps the experience accessible without sacrificing the core design.
 
-* No backend
-* No database
-* No authentication
-* No paid API
-* No build dependency
-* No GitHub API requirement
+---
 
-External libraries are loaded through free CDNs.
+## ⚡ Performance
 
-## License
+Built as a lightweight static frontend with no unnecessary infrastructure.
 
-This project is available for personal and educational use.
+* 🚫 No backend
+* 🚫 No database
+* 🚫 No authentication
+* 🚫 No paid APIs
+* 🚫 No build system required
+* 🚫 No GitHub API dependency
+* ✅ Free CDN-based dependencies
+* ✅ Static deployment ready
 
-Built with HTML, CSS, JavaScript, and attention to detail.
+
+
+
+
+
+
+## 📄 License
+
+This project is available for **personal and educational use**.
+
+---
+
+### Built with HTML, CSS & JavaScript.
+
+**Designed with intention. Crafted in code.**
